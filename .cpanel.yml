@@ -8,6 +8,6 @@ deployment:
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R scss $DEPLOYPATH
     - /bin/cp -R app.js $DEPLOYPATH
-    - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R pro.js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp pro.js $DEPLOYPATH
     
