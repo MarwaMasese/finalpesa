@@ -7,7 +7,7 @@ deployment:
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R scss $DEPLOYPATH
-    - /bin/cp -R app.js $DEPLOYPATH
+    - /bin/cp app.js $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp pro.js $DEPLOYPATH
     
