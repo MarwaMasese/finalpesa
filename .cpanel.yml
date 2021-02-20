@@ -1,6 +1,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp -R colorlib-regform-7 $DEPLOYPATH    
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
